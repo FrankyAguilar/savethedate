@@ -51,12 +51,8 @@ export default function Home() {
 
   return (
     <div>
-     
       
       <Grid>
-      {/* <div>
-      <h1>SaveTheDate.today</h1>
-      </div> */}
       {images.map((image, i )=>
         <TokenCell key={i} image={image} index={images.length - i}/>
       )}
