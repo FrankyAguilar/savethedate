@@ -42,7 +42,7 @@ export default function Home() {
         if (images.length <= 0) {
           listAPICollection("savethedate").then(result => {
                 let packag = result.response.data.assets;
-                setImages(packag.reverse);
+                setImages(packag)
                 console.log("Package:");
                 console.log(packag);
             });
