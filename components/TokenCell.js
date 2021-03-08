@@ -49,7 +49,7 @@ export default function TokenCell(data) {
       <Link href={data.image.permalink}>
         <a>
           <ImageContainer>
-            <img width={'100%'} src={data.image.image_preview_url}/> 
+            <img width={'100%'} src={data.image.image_url}/> 
           </ImageContainer> 
         
           {/* <Details>
