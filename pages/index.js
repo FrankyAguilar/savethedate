@@ -2,9 +2,17 @@ import Link from "next/link";
 import Head from 'next/head'
 import styled from 'styled-components';
 import Home from './home';
-
+import Image from 'next/image'
 const Main = styled.div`
-  /* padding: 20px; */
+`;
+const Header = styled.div`
+  height: 250px;
+  background-image: url("/banner_opensea.png") ;
+  background-position: center;
+  @media screen and (max-width: 540px) {
+    height: 150px;
+    background-size: cover;
+  }
 `;
 
 export default function Index() {
@@ -19,6 +27,8 @@ export default function Index() {
       </Head>
 
       <Main>
+        <Header>
+        </Header>
         <Home />
       </Main>
     </div>

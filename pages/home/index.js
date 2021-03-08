@@ -4,17 +4,17 @@ import TokenCell from '../../components/TokenCell';
 import styled from 'styled-components';
 
 const Grid = styled.div`
-  width: 1280px;
+  width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto ;
   
   /* padding: 10px; */
   justify-items: center;
   margin: auto;
 
-  @media screen and (max-width: 1220px) {
+  @media screen and (max-width: 1200px) {
     width: auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto ;
   }
 
   @media screen and (max-width: 768px) {
@@ -26,8 +26,8 @@ const Grid = styled.div`
     width: auto;
 
     grid-template-columns: auto;
-        align-items: center;
-    }
+    align-items: center;
+  }
 `;
 
 export default function Home() {
