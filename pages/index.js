@@ -26,6 +26,7 @@ const Description = styled.p`
   color: #666666;
   font-size: 16px;
   line-height: 1.3em;
+  text-align: center;
 
   @media screen and (max-width: 540px) {
     padding-top: 150px;
@@ -71,8 +72,8 @@ export default function Index() {
         <Description>What if you could own a piece of History, a very Important date, something that only has and only will happen once! The Earth has been in existents for around 4.543 billion years but in all of days, how many of them are memorable? At SaveTheDate we have collected together some of the most Interesting, most Unforgettable and down right Ridiculous dates for you to own and collect using NFT’s so you can also be a part of History!</Description>
          
         <Links>
-          <Link href="https://opensea.io/collection/savethedate"><SocialLink><Image src="/icon_opensea.png" width="40px" height="40px"/></SocialLink></Link>
-          <Link href="https://twitter.com/SaveTheDateNFT"><SocialLink><Image src="/icon_twitter.png"  width="40px" height="40px"/></SocialLink></Link>
+          <Link href="https://opensea.io/collection/savethedate"><a style={{marginRight: "20px"}} ><Image src="/icon_opensea.png" width="40px" height="40px" /></a></Link>
+          <Link href="https://twitter.com/SaveTheDateNFT"><a><Image src="/icon_twitter.png"  width="40px" height="40px"/></a></Link>
         </Links>
         </Header>
         <Home />
