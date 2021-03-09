@@ -71,7 +71,7 @@ export default function Index() {
         <Header>
         <Description>What if you could own a piece of History, a very Important date, something that only has and only will happen once! The Earth has been in existence for around 4.543 billion years but in all of days, how many of them are memorable? At SaveTheDate we have collected together 365 of the most Interesting, most Unforgettable and down right Ridiculous dates for you to own and collect using NFT’s so you can also be a part of History!
 <br /> 
-365 Collectable Dates Released 8 per day.</Description>
+Dates will be Dropped Daily at 8am PST. A Total of 365 Collectable Dates will be Released.</Description>
          
         <Links>
           <Link href="https://opensea.io/collection/savethedate"><a style={{marginRight: "20px"}} ><Image src="/icon_opensea.png" width="40px" height="40px" /></a></Link>
