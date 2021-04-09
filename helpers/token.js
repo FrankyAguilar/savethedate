@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-export const listAPICollection = (id) => 
+export const listAPICollection = (id) = 
     new Promise(function (result) {
         console.log(id)
         const url = `https://api.opensea.io/api/v1/assets?order_direction=desc&offset=0&limit=20&collection=${id}`;
